@@ -7,5 +7,5 @@ import App from './app'
 
 render(
     <App />,
-    document.querySelector('[data-js="app"')
+    document.getElementById('app')
 )
