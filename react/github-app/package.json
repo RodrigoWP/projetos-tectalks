@@ -1,0 +1,32 @@
+{
+  "name": "watch-site",
+  "version": "1.0.0",
+  "description": "poc com react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://watchdesenv@bitbucket.org/watchdesenv/watch-site.git"
+  },
+  "author": "Rodrigo Wippel",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/watchdesenv/watch-site#readme",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "react-hot-loader": "^3.0.0-beta.2",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.14.1",
+    "webpack-validator": "2.2.7"
+  },
+  "dependencies": {
+    "@fdaciuk/ajax": "^2.1.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
