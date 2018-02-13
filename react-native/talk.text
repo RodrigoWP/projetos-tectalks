@@ -1,0 +1,26 @@
+React Native - Aprenda uma vez, escreva em qualquer lugar
+
+O que é React Native/Porque ele existe?
+
+- Permite que você use React para fazer aplicativos nativos para IOS e Android
+- Utilizar os mesmos principios do desenvolvimento web
+- Pode ser muito vantagoso sendo necessário apenas uma equipe de UI
+
+Descobrindo o React Native
+
+React - Virtual DOM
+Inicia quando chamado setState()
+Faz merge do estado passado como parametro com o estado atual
+
+Reconciliação
+Tem como objetivo final atualizar a UI com base nesse novo estado da maneira mais eficiente possível.
+
+Reconciliação (Na web)
+
+Árvore de elementos -> Calcula diferenças do nó anterior ->
+-> Cria uma nova arvore conforme o novo estado -> Renderiza para DOM
+
+Reconciliação (No React Native)
+
+Árvore de elementos -> Calcula diferenças do nó anterior ->
+-> Cria uma nova arvore conforme o novo estado -> Renderiza para IOS e Android nativos
