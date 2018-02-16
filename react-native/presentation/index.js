@@ -175,7 +175,7 @@ export default class Presentation extends React.Component {
 
         <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
           <Heading size={6} textColor='primary'>
-            Recursos Nativos
+            Apresentando o expo
           </Heading>
         </Slide>
 
