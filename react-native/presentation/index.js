@@ -125,26 +125,34 @@ export default class Presentation extends React.Component {
         {/*hands on*/}
         <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
           <Heading size={6} textColor='primary'>
-            React x React Native
-          </Heading>
-        </Slide>
-
-        <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
-          <Heading size={6} textColor='primary'>
             Web x Nativo
           </Heading>
+          <Text textSize={30} textColor='primary'>
+            Aplicações fundamentalmente diferentes
+          </Text>
+          <List>
+            <ListItem textSize={30}>Animações</ListItem>
+            <ListItem textSize={30}>Navegação</ListItem>
+            <ListItem textSize={30}>Android x IOS (Barra de navegação e Abas inferiores)</ListItem>
+          </List>
         </Slide>
 
         <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
           <Heading size={6} textColor='primary'>
             Componentes comuns do React Native
           </Heading>
+          <Text textSize={30} textColor='primary'>
+            Componentes fornecidos pelo React Native
+          </Text>
         </Slide>
 
         <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
           <Heading size={6} textColor='primary'>
             AsyncStorage
           </Heading>
+          <Text textSize={30} textColor='primary'>
+            Sistema de armazenamento simples
+          </Text>
         </Slide>
 
         <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
@@ -176,11 +184,11 @@ export default class Presentation extends React.Component {
             Alguns links
           </Heading>
           <br />
-          <Text size={2} textColor='primary'>
+          <Text textSize={30} textColor='primary'>
             https://github.com/RodrigoWP/react-native-talk
           </Text>
           <br />
-          <Text size={6} textColor='primary'>
+          <Text textSize={30} textColor='primary'>
             http://formidable.com/open-source/spectacle
           </Text>
           <BlockQuote>
