@@ -58,7 +58,7 @@ export default class Presentation extends React.Component {
             X
           </Heading>
           <Heading size={6} textColor='primary'>
-            Learn onde, write anywhere
+            Learn once, write anywhere
           </Heading>
         </Slide>
         <Slide transition={['fade']} bgColor='secondary' textColor='tertiary'>
