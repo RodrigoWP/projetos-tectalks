@@ -6,6 +6,14 @@ O que é React Native/Porque ele existe?
 - Utilizar os mesmos principios do desenvolvimento web
 - Pode ser muito vantagoso sendo necessário apenas uma equipe de UI
 
+Write once, run anywhere
+          VS
+Learn onde, write anywhere
+
+Princípios:
+- Composição dos componentes
+- UI declarativa
+
 Descobrindo o React Native
 
 React - Virtual DOM
@@ -24,3 +32,24 @@ Reconciliação (No React Native)
 
 Árvore de elementos -> Calcula diferenças do nó anterior ->
 -> Cria uma nova arvore conforme o novo estado -> Renderiza para IOS e Android nativos
+
+----- Show me the code --------------
+
+React x React Native
+
+Web x Nativo
+
+Componentes comuns do React Native
+
+AsyncStorage
+
+Redux e React Native
+
+Estilo e Layout
+
+Navigation
+
+Recursos Nativo
+
+O que você deve saber sobre o funcionamento do React Native
+https://medium.com/reactbrasil/o-que-voce-deve-saber-sobre-o-funcionamento-do-react-native-7e3c610aa268
